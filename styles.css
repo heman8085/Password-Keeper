@@ -1,9 +1,59 @@
-.hero{
-    display: flex;
-} 
-.form{
-    padding-right: 30%;
-    padding-top: 8%;
-    padding-left: 2%;
+
+body {
+    font-family:sans-serif;
+    background-color:#eddea4;
+}
+.headingDiv{
+    text-align: center;
+    padding: 20px;
    
+}
+.hero {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.form {
+    padding: 60px;
+}
+.displayPassword{
+    padding: 10px;
+}
+label {
+    display:block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],input[type="password"],input[type="text"]#search{
+padding: 8px;;
+width: 200px;;
+border-radius: 10px;
+border: none;
+background-color:whitesmoke;
+}
+
+button {
+    width:70px;
+    padding:6px;
+    border-radius: 10px;
+    background-color:lightcoral;
+    color:white ;
+    column-gap:5px;
+    cursor: pointer;
+    margin: 5px;
+    border: none;
+    
+}
+.addBtn{
+    margin-top: 5%;
+    background-color: green;
+    color: white;
+    width:70px;
+    padding:6px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
 }
